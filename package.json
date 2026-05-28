@@ -1,0 +1,17 @@
+{
+  "name": "exampleproject-playwrightframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "regression": "npx playwright test --grep @regression",
+    "smoke": "npx playwright test --grep @smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
